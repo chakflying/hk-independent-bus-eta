@@ -4,7 +4,8 @@ import React, {
   useImperativeHandle,
   useRef,
 } from "react";
-import SwipeableViews from "react-swipeable-views";
+import SwipeableViews from "react-swipeable-views-react-18-fix";
+
 import AppContext from "../../AppContext";
 import type { HomeTabType } from "./HomeTabbar";
 import SearchRangeController from "./SearchRangeController";

@@ -5,7 +5,7 @@ import React, {
   useImperativeHandle,
   useCallback,
 } from "react";
-import SwipeableViews from "react-swipeable-views";
+import SwipeableViews from "react-swipeable-views-react-18-fix";
 import AppContext from "../../AppContext";
 import StopRouteList from "./StopRouteList";
 

@@ -1,6 +1,6 @@
 import React, { useContext, useMemo, useCallback } from "react";
-import SwipeableViews from "react-swipeable-views";
-import { virtualize, bindKeyboard } from "react-swipeable-views-utils";
+import SwipeableViews from "react-swipeable-views-react-18-fix";
+import { virtualize, bindKeyboard } from "react-swipeable-views-utils-react-18-fix";
 import SentimentVeryDissatisfiedIcon from "@mui/icons-material/SentimentVeryDissatisfied";
 import { FixedSizeList } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
